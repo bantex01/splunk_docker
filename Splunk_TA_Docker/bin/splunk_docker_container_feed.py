@@ -51,8 +51,8 @@ try:
 		#print "container status file exists"
 
 		# We need to get a list of the files, then compare them with what's
-		# in our status file. If there's a container file in our stats file and
-		# no longer appears to exist, that will be removed from the next stats file.
+		# in our status file. If there's a container file in our status file and
+		# no longer appears to exist, that will be removed from the next status file.
 		#
 		# If container file exists and is in status file, the following will occur
 		#
@@ -94,7 +94,7 @@ try:
 				#print "New container found "+container
 				OUTPUT.append(container)			
 
-		# Here, we should have an updated FILES dictionary that will be used to create the new stats file
+		# Here, we should have an updated FILES dictionary that will be used to create the new status file
 		# and output array that we will loop to create the data feed
 		
 		for file in OUTPUT:
